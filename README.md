@@ -7,7 +7,7 @@ Use Docker for exercism.io tracks
 - Docker Compose
 
 ## usage:
-- clone this repo, and cd into it, obvi. ( ͡° ͜ʖ ͡°)
+- FORK this repo, and clone your fork, so you can commit your own code solutions.  ( ͡° ͜ʖ ͡°)
 - create a new file in the config directory named `user.json`
 - copy the contents of the sample file into it (or from below, for your convenience)
 ```
