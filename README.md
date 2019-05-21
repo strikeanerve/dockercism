@@ -26,3 +26,6 @@ Use Docker for exercism.io tracks
 - (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. * ･ ｡ﾟ,
 
 I suggest an alias for docker-compose run --rm.  I use `dcrm='docker-compose run --rm'`
+
+## contribute:
+If you want to add support for your exercism track(language) of choice, please do so and submit a pull request.  It should be very easy to follow my pattern.  Yes, I realize that there's some duplication going on in the docker compose file.  Let's address this when it becomes a bigger problem.
