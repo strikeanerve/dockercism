@@ -16,5 +16,15 @@ services:
     command: bash
     volumes:
       - ./prolog:/root/exercism/prolog
+      - ./config:/root/.config/exercism
     working_dir:
       /root/exercism/prolog
+  python:
+    build:
+      context: python
+    command: bash
+    volumes:
+      - ./python:/root/exercism/python
+      - ./config:/root/.config/exercism
+    working_dir:
+      /root/exercism/python
