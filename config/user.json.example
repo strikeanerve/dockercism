@@ -1,0 +1,5 @@
+{
+  "apibaseurl": "https://api.exercism.io/v1",
+  "token": "YOUR_TOKEN_HERE",
+  "workspace": "/root/exercism"
+}

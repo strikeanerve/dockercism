@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  elixir:
+    build:
+      context: elixir
+    command: bash
+    volumes:
+      - ./elixir:/root/exercism/elixir
+      - ./config:/root/.config/exercism
+    working_dir:
+      /root/exercism/elixir
+  prolog:
+    build:
+      context: prolog
+    command: bash
+    volumes:
+      - ./prolog:/root/exercism/prolog
+    working_dir:
+      /root/exercism/prolog
